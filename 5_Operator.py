@@ -1,5 +1,5 @@
-#coding=utf-8
-#Python 运算符
+# coding=utf-8
+# Python Operator
 
 print "算数运算符"
 
@@ -21,47 +21,47 @@ a=10，b=20
 a = 21
 b = 10
 c = 0
-print "a=",a
-print "b=",b
-print "c=",c
+print "a=", a
+print "b=", b
+print "c=", c
 
 c = a + b
-print "c为a,b的和",c
+print "c为a,b的和", c
 
 c = a - b
-print "c为a,b的差",c
+print "c为a,b的差", c
 
 c = a * b
-print "c为a,b的积",c
+print "c为a,b的积", c
 
 c = a / b
-print "c为a,b的商",c
+print "c为a,b的商", c
 
 c = a % b
-print "c为a,b的余",c
+print "c为a,b的余", c
 
-#修改a,b
+# 修改a,b
 print "修改a,b"
-print "a=",a
-print "b=",b
+print "a=", a
+print "b=", b
 a = 2
 b = 3
-print "a=",a
-print "b=",b
+print "a=", a
+print "b=", b
 
-c = a**b
-print "c为a,b的幂",c
-c = a//b
-print "c为a,b的商 向下取整",c
+c = a ** b
+print "c为a,b的幂", c
+c = a // b
+print "c为a,b的商 向下取整", c
 
 a = 10
 b = 5
-print "a=",a
-print "b=",b
-c = a//b
-print "c为a,b的商 向下取整",c
+print "a=", a
+print "b=", b
+c = a // b
+print "c为a,b的商 向下取整", c
 
-print "-"*20
+print "-" * 20
 
 print "比较运算符"
 '''
@@ -76,50 +76,50 @@ print "比较运算符"
 <=  小于等于 - 返回x是否小于等于y。          (a <= b) 返回 true。
 '''
 
-a=21
-b=10
-c=0
+a = 21
+b = 10
+c = 0
 
-print "a=",a
-print "b=",b
-print "c=",c
+print "a=", a
+print "b=", b
+print "c=", c
 
-if a==b:
+if a == b:
     print "a=b"
 else:
     print "a<>b"
 
-if a!=b:
+if a != b:
     print "a<>b"
 else:
     print "a=b"
 
-if a<>b:
+if a <> b:
     print "a<>b"
 else:
     print "a=b"
 
-if a<b:
+if a < b:
     print "a<b"
 else:
     print "a>=b"
 
-if a>b:
+if a > b:
     print "a>b"
 else:
     print "a<=b"
 
-a=5
-b=20
+a = 5
+b = 20
 print "修改a,b"
-print "a=",a
-print "b=",b
-if a<=b:
+print "a=", a
+print "b=", b
+if a <= b:
     print "a<=b"
 else:
     print "a>b"
 
-if b>=a:
+if b >= a:
     print "b>=a"
 else:
     print "a<b"
@@ -138,32 +138,32 @@ print "赋值运算符"
 //= 取整除赋值运算符    c //= a 等效于 c = c // a
 '''
 
-a=21
-b=10
-c=0
+a = 21
+b = 10
+c = 0
 
-print "a=",a
-print "b=",b
-print "c=",c
-c=a+b
-print "c=",c
+print "a=", a
+print "b=", b
+print "c=", c
+c = a + b
+print "c=", c
 
-c+=a
-print "c += a 等效于 c = c + a c=",c
+c += a
+print "c += a 等效于 c = c + a c=", c
 
-c/=a
-print "c /= a 等效于 c = c / a c=",c
+c /= a
+print "c /= a 等效于 c = c / a c=", c
 
-c=2
-print "c=",c
-c%=a
+c = 2
+print "c=", c
+c %= a
 print "c %= a 等效于 c = c % a c=", c
 
-c**=a
-print " c **= a 等效于 c = c ** a c=",c
+c **= a
+print " c **= a 等效于 c = c ** a c=", c
 
-c//=a
-print "c //= a 等效于 c = c // a c=",c
+c //= a
+print "c //= a 等效于 c = c // a c=", c
 
 print "-" * 20
 
@@ -187,28 +187,28 @@ a^b = 0011 0001
 >>  右移动运算符：把">>"左边的运算数的各二进位全部右移若干位，>> 右边的数字指定了移动的位数
 '''
 
-a=60
+a = 60
 print "a=60 = 0011 1100"
-b=13
+b = 13
 print "b=13 = 0000 1101 "
-c=0
+c = 0
 
-c=a&b;
-print "c=a&b",c,"12 = 0000 1100"
+c = a & b;
+print "c=a&b", c, "12 = 0000 1100"
 
-c=a|b;
-print "c=a|b",c,"61 = 0011 1101"
+c = a | b;
+print "c=a|b", c, "61 = 0011 1101"
 
-c=~a;
-print "c=~a",c,"49 = 0011 0001"
+c = ~a;
+print "c=~a", c, "49 = 0011 0001"
 
-c=a<<2
-print "c=a<<2",c,"240 = 1111 0000"
+c = a << 2
+print "c=a<<2", c, "240 = 1111 0000"
 
-c=a>>2
-print "c=a>>2",c,"15 = 0000 1111"
+c = a >> 2
+print "c=a>>2", c, "15 = 0000 1111"
 
-print "-"*20
+print "-" * 20
 
 print "逻辑运算符"
 
@@ -218,10 +218,10 @@ or  x or y  布尔"或" - 如果 x 是非 0，它返回 x 的值，否则它返�
 not not x   布尔"非" - 如果 x 为 True，返回 False 。如果 x 为 False，它返回 True。
 '''
 
-a=10
-b=20
-print "a=",a
-print "b=",b
+a = 10
+b = 20
+print "a=", a
+print "b=", b
 if a and b:
     print "a and b are true"
 else:
@@ -232,8 +232,8 @@ if a or b:
 else:
     print "a and b are flalse"
 
-a=0
-print "a=",a
+a = 0
+print "a=", a
 if a and b:
     print "a and b are true"
 else:
@@ -244,24 +244,24 @@ if a or b:
 else:
     print "a and b are false"
 
-if not(a and b):
+if not (a and b):
     print "a or b is false"
 else:
     print "a and b is true"
 
-print "-"*20
+print "-" * 20
 
 print "成员运算符"
 '''
 in      如果在指定的序列中找到值返回 True，否则返回 False。
 not in  如果在指定的序列中没有找到值返回 True，否则返回 False。
 '''
-a=10
-b=20
-list = [1,2,3,4,5];
-print "a=",a
-print "b=",b
-print "list=",list
+a = 10  # type: int
+b = 20
+list = [1, 2, 3, 4, 5];
+print "a=", a
+print "b=", b
+print "list=", list
 if (a in list):
     print "a in list"
 else:
@@ -272,26 +272,25 @@ if (b not in list):
 else:
     print "b in list"
 
-a=2
-print "modify a=",a
+a = 2
+print "modify a=", a
 
 if (a in list):
     print "a in list"
 else:
     "a not in list"
 
-print "-"*20
-print "成员运算符"\
-
-
-'''
-is      is 是判断两个标识符是不是引用自一个对象
-is not  is not 是判断两个标识符是不是引用自不同对象
-'''
-a=20
-b=20
-print "a=",a
-print "b=",b
+print "-" * 20
+print "成员运算符" \
+ \
+      '''
+      is      is 是判断两个标识符是不是引用自一个对象
+      is not  is not 是判断两个标识符是不是引用自不同对象
+      '''
+a = 20
+b = 20
+print "a=", a
+print "b=", b
 
 if (a is b):
     print "a and b have same id"
@@ -303,8 +302,8 @@ if (a is not b):
 else:
     print "a and b have same id"
 
-b=30
-print "motify b=",b
+b = 30
+print "motify b=", b
 
 if (a is b):
     print "a and b have same id"
@@ -322,7 +321,7 @@ is 用于判断两个变量引用对象是否为同一个(同一块内存空间)
 == 用于判断引用变量的值是否相等。
 '''
 
-print "-"*20
+print "-" * 20
 '''
 Python运算符优先级
 **                          指数 (最高优先级)
@@ -345,17 +344,17 @@ b = 10
 c = 15
 d = 5
 e = 0
-print "a=",a
-print "b=",b
-print "c=",c
-print "d=",d
-print "e=",e
+print "a=", a
+print "b=", b
+print "c=", c
+print "d=", d
+print "e=", e
 
-e=(a+b)*c/d
-print "e=(a+b)*c/d=",e
+e = (a + b) * c / d
+print "e=(a+b)*c/d=", e
 
-e=((a+b)*c)/d
-print "e=(a+b)*c/d=",e
+e = ((a + b) * c) / d
+print "e=(a+b)*c/d=", e
 
-e=a+(b*c)/d
-print "e=(a+b)*c/d=",e
+e = a + (b * c) / d
+print "e=(a+b)*c/d=", e

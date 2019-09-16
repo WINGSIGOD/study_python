@@ -1,4 +1,4 @@
-#coding=utf-8
-#第一个python学习文件 helloworld
+# coding=utf-8
+# The first file about study python:helloworld
 
 print "hello,world";

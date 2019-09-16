@@ -1,10 +1,9 @@
-#coding=utf-8
-#python标识符学习
-#本文件涉及多个标识符 建议断点测试
+# coding=utf-8
+# This file involved many symbols,debug with breakpoints
 
-#python换行符
-print "hello";print "runoob";
-
+# Python line break symbol
+print "hello";
+print "runoob";
 
 '''
 #python标识符
@@ -20,12 +19,11 @@ else;       is;         with;
 except;     lambda;     yield;
 '''
 
-#python缩进
+# Python indentation
 if True:
     print "True"
 else:
     print "False"
-
 
 '''
 #缩进错误示范
@@ -44,24 +42,24 @@ else:
     # 所有 python 对格式要求非常严格。
 '''
 
-#多行连接符
+# Multi-line connector
 print "total = item_one " \
       "item_two " \
       "item_three"
 
-#也是多行连接符 但是使用对象思维
+# Multi-line connector by objest thinking
 total = 'item_one' + \
         'item_two' + \
         'item_three'
 
 print total
 
-# [], {} 或 () 括号多行连接,使用对象思维
+# [], {} or () uesd for multi-line connector
 days = ['Monday', 'Tuesday', 'Wednesday',
         'Thursday', 'Friday']
 print days
 
-#引号的使用
+# use of ''
 '''
 ''用于词语
 '''
@@ -81,26 +79,25 @@ world"""
 ''' '''多行注释
 '''
 
-#等待用户输入,只是个函数,只有退出功能,留一行给用户舒服而已
+# Waiting for user input, just a function
 raw_input("按下 enter 退出,其他任意按键显示....\n")
 
-#该方法是将str写入流方式输出.不会默认最后换行
+# The method is to write str to stream output. It will not default to the last line break.
 import sys;
+
 x = 'runoob';
 sys.stdout.write(x + '\n')
 
-x="a"
-y="b"
-#换行输出
+x = "a"
+y = "b"
+# Line feed output
 print x
 print y
 
 print '--------------------'
-#不换行输出方法1
+# No line feed output 1
 print x,
 print y,
 
-#不换行输出方法2
-print x,y
-
-
+# No line feed output 2
+print x, y
